@@ -1,0 +1,2 @@
+﻿REFERENCIAS
+http://blog.bobcravens.com/2010/06/the-repository-pattern-with-linq-to-fluent-nhibernate-and-mysql/
