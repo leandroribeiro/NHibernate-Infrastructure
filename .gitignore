@@ -3,3 +3,5 @@ obj/
 *ReSharper*
 *.suo
 *.user
+Debug/
+Release/
