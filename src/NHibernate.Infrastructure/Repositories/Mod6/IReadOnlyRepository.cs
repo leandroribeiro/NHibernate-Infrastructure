@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace EBXDashboardsModel.Infra.Repositories.Mod6 {
+namespace NHibernate.Infrastructure.Repositories.Mod6 {
     public interface IReadOnlyRepository<TEntity> where TEntity : class {
         IQueryable<TEntity> All();
         TEntity FindBy(Expression<Func<TEntity, bool>> expression);

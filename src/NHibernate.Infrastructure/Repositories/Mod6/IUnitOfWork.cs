@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Data;
-using NHibernate;
 
-namespace EBXDashboardsModel.Infra.Repositories.Mod6 {
+namespace NHibernate.Infrastructure.Repositories.Mod6 {
     public interface IUnitOfWork : IDisposable {
         ISession Session { get; }
         void Commit();

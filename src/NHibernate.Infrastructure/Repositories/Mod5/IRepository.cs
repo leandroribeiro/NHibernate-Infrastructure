@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod5 {
     public interface IRepository<T> where T : class {
         void Save(T entity);
         void Delete(T entity);

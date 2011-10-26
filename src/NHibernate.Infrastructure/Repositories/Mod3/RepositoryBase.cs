@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Linq;
-using NHibernate;
-using NHibernate.Linq;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod3 {
     public class RepositoryBase : IRepository, IDisposable {
         protected ISession _session = null;
         protected ITransaction _transaction = null;
@@ -60,7 +58,7 @@ namespace EBXDashboardsModel.Infra.Repositories {
             _session.Delete(obj);
         }
 
-        public virtual object GetById(Type objType, object objId) {
+        public virtual object GetById(System.Type objType, object objId) {
             return _session.Load(objType, objId);
         }
 

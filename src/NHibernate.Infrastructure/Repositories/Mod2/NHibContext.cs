@@ -1,7 +1,6 @@
 ﻿
-using NHibernate;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod2 {
     /// <summary>
     /// A NHibernate-context object which operates on a single-database.
     /// Offers functionality for creating UnitOfWorks for use in e.g

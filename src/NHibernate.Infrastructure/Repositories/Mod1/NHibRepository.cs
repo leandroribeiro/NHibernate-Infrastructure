@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using NHibernate;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod1 {
     public abstract class NHibRepository<T> : IRepository<T>
     where T : class, new() {
         protected NHibContext Context { get; private set; }

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using EBXDashboardsModel.Infra.Repositories;
+using NHibernate.Infrastructure.Repositories;
 using NHibernate;
 
-namespace EBXDashboardsModel.Infra.Mod4 {
+namespace NHibernate.Infrastructure.Repositories.Mod4 {
     public abstract class BusinessBaseType<TEntity>
             where TEntity : class, new() {
         protected BusinessBaseType() {

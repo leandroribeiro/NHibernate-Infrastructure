@@ -1,8 +1,6 @@
 ﻿using System;
-using NHibernate;
-using NHibernate.Cfg;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod1 {
     /// <summary>
     /// Uses Xml-configuration for setup-config and for mappings is Hbm-files used.
     /// </summary>

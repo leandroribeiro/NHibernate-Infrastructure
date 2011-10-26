@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NHibernate;
 using NHibernate.Criterion;
-using NHibernate.Linq;
+using System.Linq.Expressions;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod2 {
     public class NHibSession
     : IDisposable {
         private ISession InnerSession { get; set; }

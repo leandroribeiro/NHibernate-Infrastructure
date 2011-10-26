@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.Common;
 using System.IO;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod2 {
     /// <summary>
     /// Helps with some disposing and closing operations
     /// depending on sent type.

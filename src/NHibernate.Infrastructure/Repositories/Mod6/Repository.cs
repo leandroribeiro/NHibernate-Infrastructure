@@ -1,8 +1,7 @@
 ﻿using System.Linq;
-using NHibernate;
 using NHibernate.Linq;
 
-namespace EBXDashboardsModel.Infra.Repositories.Mod6 {
+namespace NHibernate.Infrastructure.Repositories.Mod6 {
     public class Repository<T> : NHibernateContext, IIntKeyedRepository<T> where T : class {
         private readonly ISession _session;
 

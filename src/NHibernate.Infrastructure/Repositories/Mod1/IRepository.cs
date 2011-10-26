@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using NHibernate;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod1 {
     //public interface IRepository<T> {
     //    void Save(T obj);
     //    void Update(T obj);

@@ -1,9 +1,8 @@
 ﻿using System.Reflection;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
-using NHibernate;
 
-namespace EBXDashboardsModel.Infra.Repositories.Mod6 {
+namespace NHibernate.Infrastructure.Repositories.Mod6 {
     public class NHibernateHelper {
         private const string ConnectionString = "FluentNHibernateConnectionString";
         //private readonly string _connectionString;

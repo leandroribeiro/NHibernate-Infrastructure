@@ -1,8 +1,7 @@
 ﻿using System.Reflection;
-using NHibernate;
 using NHibernate.Cfg;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod3 {
     public static class Database {
         private static ISessionFactory _sessionFactory;
 

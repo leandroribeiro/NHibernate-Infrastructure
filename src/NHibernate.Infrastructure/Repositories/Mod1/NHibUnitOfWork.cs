@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using NHibernate;
 using NHibernate.Criterion;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod1 {
     /// <summary>
     /// An Unit-of-work implementation against NHibernate.
     /// </summary>

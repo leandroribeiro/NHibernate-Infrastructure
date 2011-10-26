@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NHibernate;
-using NHibernate.Criterion;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod1 {
 
 
     //public class NHibernateRepository<T> : IRepository<T> {

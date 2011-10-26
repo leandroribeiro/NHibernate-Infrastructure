@@ -1,9 +1,6 @@
 ﻿using System.Reflection;
-using FluentNHibernate.Cfg;
-using NHibernate;
-using NHibernate.Cfg;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod1 {
     /// <summary>
     /// Uses Xml-configuration for setup-config and for mappings is Fluent-NHibernate used.
     /// </summary>

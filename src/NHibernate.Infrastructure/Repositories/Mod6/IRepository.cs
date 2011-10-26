@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace EBXDashboardsModel.Infra.Repositories.Mod6 {
+namespace NHibernate.Infrastructure.Repositories.Mod6 {
     public interface IRepository<TEntity> : IReadOnlyRepository<TEntity> where TEntity : class {
         bool Add(TEntity entity);
         bool Add(IEnumerable<TEntity> items);

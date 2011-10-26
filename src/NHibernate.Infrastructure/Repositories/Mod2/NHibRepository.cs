@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 
-namespace EBXDashboardsModel.Infra.Repositories {
+namespace NHibernate.Infrastructure.Repositories.Mod2 {
     public abstract class NHibRepository<T> : IRepository<T>, IDisposable
     where T : class, IEntity {
         protected NHibContext Context { get; private set; }
