@@ -1,14 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Infrastructure.Test", "NHibernate.Infrastructure.Test\NHibernate.Infrastructure.Test.csproj", "{10671390-D615-4C2E-BED6-30A39A902880}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98E188F0-4332-4091-A0FE-06FBA54F23FE}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
 		NHibernate.Infrastructure.Test.vsmdi = NHibernate.Infrastructure.Test.vsmdi
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Infrastructure", "NHibernate.Infrastructure\NHibernate.Infrastructure.csproj", "{9FD7270B-B6C1-4728-85E2-31E49918CD7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Infrastructure.Test", "NHibernate.Infrastructure.Test\NHibernate.Infrastructure.Test\NHibernate.Infrastructure.Test.csproj", "{10671390-D615-4C2E-BED6-30A39A902880}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -19,6 +21,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FD7270B-B6C1-4728-85E2-31E49918CD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD7270B-B6C1-4728-85E2-31E49918CD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD7270B-B6C1-4728-85E2-31E49918CD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD7270B-B6C1-4728-85E2-31E49918CD7F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{10671390-D615-4C2E-BED6-30A39A902880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{10671390-D615-4C2E-BED6-30A39A902880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10671390-D615-4C2E-BED6-30A39A902880}.Release|Any CPU.ActiveCfg = Release|Any CPU
