@@ -85,9 +85,11 @@
     <Compile Include="Repositories\Mod6\Repository.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Repositories\Mod7\IRepository.cs" />
+    <Compile Include="Repositories\Mod7\Repository.cs" />
+    <Compile Include="Repositories\Mod7\RepositoryHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Repositories\Mod7\" />
     <Folder Include="UnitOfWork\Mod6\" />
     <Folder Include="UnitOfWork\Mod7\" />
   </ItemGroup>

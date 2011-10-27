@@ -4,6 +4,7 @@ using FluentNHibernate.Cfg.Db;
 
 namespace NHibernate.Infrastructure.Repositories.Mod6 {
     public class NHibernateHelper {
+
         private const string ConnectionString = "FluentNHibernateConnectionString";
         //private readonly string _connectionString;
         private ISessionFactory _sessionFactory;
