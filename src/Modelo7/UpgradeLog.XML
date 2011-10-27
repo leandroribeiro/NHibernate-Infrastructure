@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NHibernateUnitOfWork">
+</Property><Property Name="Solution File" Value="C:\Users\Leandro\Documents\PROJETOS\NHibernate-Infrastructure\src\Modelo7\NHibernateUnitOfWork.sln">
+</Property><Property Name="Date" Value="quarta-feira, 26 de outubro de 2011">
+</Property><Property Name="Time" Value="22:45">
+</Property></Properties><Event ErrorLevel="0" Project="NHibernateUnitOfWork" Source="NHibernateUnitOfWork\NHibernateUnitOfWork.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NHibernateUnitOfWork" Source="NHibernateUnitOfWork\NHibernateUnitOfWork.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NHibernateUnitOfWork.Tests" Source="NHibernateUnitOfWork.Tests\NHibernateUnitOfWork.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NHibernateUnitOfWork.Tests" Source="NHibernateUnitOfWork.Tests\NHibernateUnitOfWork.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NHibernateRepository" Source="NHibernateRepository\NHibernateRepository.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NHibernateRepository" Source="NHibernateRepository\NHibernateRepository.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NHibernateRepository.Tests" Source="NHibernateRepository.Tests\NHibernateRepository.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NHibernateRepository.Tests" Source="NHibernateRepository.Tests\NHibernateRepository.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NHibernateUnitOfWork.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NHibernateUnitOfWork.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NHibernateUnitOfWork" Source="NHibernateUnitOfWork\NHibernateUnitOfWork.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="NHibernateUnitOfWork.Tests" Source="NHibernateUnitOfWork.Tests\NHibernateUnitOfWork.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="NHibernateRepository" Source="NHibernateRepository\NHibernateRepository.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="NHibernateRepository.Tests" Source="NHibernateRepository.Tests\NHibernateRepository.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
