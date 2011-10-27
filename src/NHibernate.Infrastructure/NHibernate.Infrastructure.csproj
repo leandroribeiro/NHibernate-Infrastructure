@@ -87,7 +87,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UnitOfWork\" />
+    <Folder Include="Repositories\Mod7\" />
+    <Folder Include="UnitOfWork\Mod6\" />
+    <Folder Include="UnitOfWork\Mod7\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Repositories\Mod4\LEIAME.txt" />
