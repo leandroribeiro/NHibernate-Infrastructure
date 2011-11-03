@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.Infrastructure", "RepositoryPattern.Infrastructure\RepositoryPattern.Infrastructure.csproj", "{5EFA398F-DED4-43E6-99F5-00F57446DC8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.Data.Orm.nHibernate", "RepositoryPattern.Data.Orm.nHibernate\RepositoryPattern.Data.Orm.nHibernate.csproj", "{393E66BE-533B-4E51-9C47-E6964961C419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.DomainModel", "RepositoryPattern.DomainModel\RepositoryPattern.DomainModel.csproj", "{D5761E76-DF7E-4983-BBAC-BD87411392FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.Data.Orm.nHibernate.Map", "RepositoryPattern.Data.Orm.nHibernate.Map\RepositoryPattern.Data.Orm.nHibernate.Map.csproj", "{9795C0ED-49F2-416E-ABB3-B8CB8B8B1886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.Tests", "RepositoryPattern.Tests\RepositoryPattern.Tests.csproj", "{EB4D6C8A-2C3F-4B05-9110-1161DE10656D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql.Scripts", "Sql.Scripts", "{A49FA44E-F030-4DAC-81E6-6534059FFCDA}"
+	ProjectSection(SolutionItems) = preProject
+		Sql.Scripts\DbScripts.sql = Sql.Scripts\DbScripts.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EFA398F-DED4-43E6-99F5-00F57446DC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFA398F-DED4-43E6-99F5-00F57446DC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFA398F-DED4-43E6-99F5-00F57446DC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFA398F-DED4-43E6-99F5-00F57446DC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393E66BE-533B-4E51-9C47-E6964961C419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393E66BE-533B-4E51-9C47-E6964961C419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393E66BE-533B-4E51-9C47-E6964961C419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393E66BE-533B-4E51-9C47-E6964961C419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5761E76-DF7E-4983-BBAC-BD87411392FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5761E76-DF7E-4983-BBAC-BD87411392FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5761E76-DF7E-4983-BBAC-BD87411392FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5761E76-DF7E-4983-BBAC-BD87411392FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9795C0ED-49F2-416E-ABB3-B8CB8B8B1886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9795C0ED-49F2-416E-ABB3-B8CB8B8B1886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9795C0ED-49F2-416E-ABB3-B8CB8B8B1886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9795C0ED-49F2-416E-ABB3-B8CB8B8B1886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4D6C8A-2C3F-4B05-9110-1161DE10656D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4D6C8A-2C3F-4B05-9110-1161DE10656D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4D6C8A-2C3F-4B05-9110-1161DE10656D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4D6C8A-2C3F-4B05-9110-1161DE10656D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
